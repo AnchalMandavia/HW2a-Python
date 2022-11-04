@@ -1,0 +1,8 @@
+1. No the change inside "increment_int_a" does not change the variable a after the function call.
+
+2. Yes the change inside "increment_int_b" does change the variable b after the function call.
+
+3. They differ in answer because "a" is a integer which is immutable, while "b" is a list which a mutable object in pyhton.
+   Meaning "b" can change the value after a function call but "a" cannot.
+
+   
