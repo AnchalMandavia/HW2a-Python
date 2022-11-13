@@ -6,10 +6,3 @@ def sort_dictionary(inputDict):
         #print(f"('{inputDict.keys[i]}', {i[0]})")
         print(f"('{inputDict.keys}'), {i[0]})", end = " ")
     print()
-
-def main():
-    A = {"Tom" : (5464512, 24) , "Sara" : (5446987, 32) , "Mary" : (1557896, 20)}
-    sort_dictionary(A)
-    print(A)
-
-main()
